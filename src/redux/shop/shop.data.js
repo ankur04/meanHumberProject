@@ -1,8 +1,8 @@
 const SHOP_DATA = {
-  hats: {
+  bikes: {
     id: 1,
     title: 'Bikes',
-    routeName: 'hats',
+    routeName: 'bikes',
     items: [
       {
         id: 1,
@@ -48,23 +48,47 @@ const SHOP_DATA = {
       }
     ]
   },
-  sneakers: {
+  trucks: {
     id: 2,
     title: 'Trucks',
-    routeName: 'sneakers',
+    routeName: 'trucks',
     items: [
       {
-        id: 8,
+        id: 88,
         name: 'Telsa Truck',
         imageUrl: 'https://www.tesla.com/xNVh4yUEc3B9/04_Desktop.jpg',
         price: 16000
+      },
+      {
+        id: 89,
+        name: "Pickup Truck",
+        imageUrl: "https://www.goodcarbadcar.net/wp-content/uploads/2019/07/US-Pickup-Truck-Sales-Figures-By-Model.png",
+        price: 7400
+      },
+      {
+        id: 90,
+        name: "Thor Truck",
+        imageUrl: "https://www.trucks.com/wp-content/uploads/2017/12/thor-trucks-road.jpg",
+        price: 4533
+      },
+      {
+        id: 91,
+        name: "Mac Pro Truck",
+        imageUrl: "https://s29755.pcdn.co/wp-content/uploads/2019/08/2019_Top_Five_Class_5-Mack.jpg",
+        price: 8999
+      },
+      {
+        id: 92,
+        name: "53 Dry Truck",
+        imageUrl: "https://www.mickeyparts.com/pages/media/Dry-Van-Trailers-vs-Reefers.jpg",
+        price: 4999
       }
     ]
   },
-  jackets: {
+  cars: {
     id: 3,
     title: 'Cars',
-    routeName: 'jackets',
+    routeName: 'cars',
     items: [
       {
         id: 18,
@@ -83,32 +107,62 @@ const SHOP_DATA = {
         name: 'Telsa',
         imageUrl: 'https://www.tesla.com/sites/default/files/modelsx-new/social/model-x-social.jpg',
         price: 90000
+      },
+      {
+        id: 17,
+        name: 'AMG',
+        imageUrl: 'https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iho0QqgeF4K8/v1/1000x-1.jpg',
+        price: 40000
       }
     ]
   },
-  womens: {
+  bicycles: {
     id: 4,
     title: 'Bicycle',
-    routeName: 'womens',
+    routeName: 'bicycles',
     items: [
       {
         id: 21,
         name: 'E-Bike',
         imageUrl: 'https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1589313237-gazelle-ultimate-grid-1589313216.jpg',
         price: 90000
+      },
+      {
+        id: 22,
+        name: 'Electronic bike',
+        imageUrl: 'https://media.wired.com/photos/5d606f75ee69d100089ae128/4:3/w_2400,h_1800,c_limit/Gear-Wabash-02-LEAD.jpg',
+        price: 90000
+      },
+      {
+        id: 22,
+        name: 'Maxxis bike',
+        imageUrl: 'https://images.giant-bicycles.com/b_white,c_pad,h_650,q_80/ximigqnedac430mf4qdj/MY20Talon1_ColorA.jpg',
+        price: 14500
       }
     ]
   },
-  mens: {
+  boats: {
     id: 5,
     title: 'Boats',
-    routeName: 'mens',
+    routeName: 'boats',
     items: [
       {
         id: 31,
         name: 'Ocean 360',
         imageUrl: 'https://images.boats.com/resize/1/58/13/7125813_20190624121002736_1_LARGE.jpg?t=1561403402000',
         price: 90000
+      },
+      {
+        id: 33,
+        name: 'Ocean Alexander',
+        imageUrl: 'https://www.starcraftmarine.com/sites/starcraftmarine.com/files/styles/tile_large/public/sc_svx211ob_2020_tmp19069_2406.jpg?itok=UeHh16rN',
+        price: 55000
+      },
+      {
+        id: 34,
+        name: 'Royal Princess',
+        imageUrl: 'https://cdn.bannerbuzz.ca/media/catalog/product/resize/560/b/o/boat-lettering.jpg',
+        price: 70000
       }
     ]
   }
